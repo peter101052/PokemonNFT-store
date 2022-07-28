@@ -21,7 +21,6 @@ App = {
       numberTemplate.find('.panel-number').attr('data-token-id', i)
       numberTemplate.find('.btn-avail').attr('data-token-id', i)
       numberTemplate.find('.btn-mint').attr('data-token-id', i)
-      // numberTemplate.find('.panel-body .number').text(formattedNumber)
       src = './nft-pic/'+i+'.png'
       numberTemplate.find('#pic-number').attr('src', src)
 
